@@ -1,0 +1,98 @@
+/* start variable  */
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --green-color: hsl(75, 94%, 57%);
+    --grey-low-color: hsl(0, 0%, 20%);
+    --grey-medium-color: hsl(0, 0%, 12%);
+    --grey-high-color: hsl(0, 0%, 8%);
+    --paragraph-font-size: 14px;
+}
+
+/* end variable  */
+/* start font style  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* font-family: "Inter", sans-serif; font-weight 
+400 600 700 */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--grey-high-color);
+}
+
+/* end font style  */
+.social-poster {
+    width: 40%;
+    background-color: var(--grey-medium-color);
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px 50px;
+}
+
+.social-poster img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+/* start heading  */
+.heading {
+    margin-top: 10%;
+}
+
+.heading h3 {
+    color: var(--white-color);
+    font-size: 200%;
+    font-weight: 700;
+    margin: 0;
+}
+
+.heading p {
+    color: var(--green-color);
+    font-size: var(--paragraph-font-size);
+    font-weight: 400;
+    margin-top: 2%;
+
+}
+
+/* end heading  */
+/* start qoute  */
+
+.qoute {
+    width: 100%;
+}
+
+.qoute p {
+    font-size: var(--paragraph-font-size);
+    font-weight: 400;
+    color: #bfbfbf;
+}
+
+
+
+/* END  qoute */
+/* start buttons-of-socials  */
+.buttons-of-socials {
+    width: 100%;
+}
+
+.buttons-of-socials a {
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    width: 90%;
+    background-color: var(--grey-low-color);
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 4%;
+}
+
+@media(max-width:767px) {
+    .social-poster {
+        width: 60%
+    }
+
+    .heading h3 {
+        font-size: 150%;
+    }
+}
+
+/* end buttons-of-socials  */
